@@ -1,17 +1,17 @@
 Luma Glove
 
-Guante inteligente basado en ESP32-C3 y sensores de flexión para controlar videojuegos mediante los movimientos de la mano.
+A smart glove based on the ESP32-C3 and flex sensors designed to control video games through hand and finger movements.
 
-Tecnologías y componentes:
+Technologies and Components:
 
 Hardware:
 - ESP32-C3 Super Mini
-- 4x Flex Sensor 2.2"
-- 4x Resistencias de 10 kΩ
-- Protoboard
-- Cables Dupont
-- Guante de tela
-- Cable USB-C
+- 4× 2.2" Flex Sensors
+- 4× 10 kΩ Resistors
+- Breadboard
+- Dupont Jumper Wires
+- Fabric Glove
+- USB-C Cable
 
 Software:
 - Arduino IDE
@@ -19,13 +19,12 @@ Software:
 - CSS3
 - JavaScript
 - Web Serial API
-- Google Chrome (Web Serial API)
+- Google Chrome (Web Serial API support)
 
-  
-Estado:
+Project Status:
 
-Pruebas piloto
+Pilot Testing
 
-Autor:
+Author:
 
 Samuel Arredondo Ramírez
