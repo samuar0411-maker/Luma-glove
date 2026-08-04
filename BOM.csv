@@ -3,11 +3,11 @@ ESP32-C3 Super Mini,8.50,1,Main Microcontroller,https://www.dualtronica.com/
 MPU6050,2.65,2,Motion Tracking (Accelerometer and Gyroscope),https://www.dualtronica.com/
 2.2-inch Flex Sensor,22.50,5,Finger Motion Detection,https://www.amazon.com/s?k=2.2+flex+sensor
 10k Ohm Resistor,0.10,4,Voltage Divider,https://www.dualtronica.com/
-100nF Capacitor,0.20,4,Signal Noise Filtering,https://es.aliexpress.com/wholesale?SearchText=100nF+ceramic+capacitor
+100nF Capacitor,0.20,10,Signal Noise Filtering,https://es.aliexpress.com/wholesale?SearchText=100nF+ceramic+capacitor
 Li-ion Battery (1200mAh),8.50,1,Portable Power Supply,https://www.amazon.com/s?k=1200mah+lipo+battery
 USB Type-C Charging Module,1.50,1,Battery Charging Module,https://www.dualtronica.com/
 WS2812B RGB LED Strip,5.00,1,RGB Lighting Effects,https://www.dualtronica.com/
-5mm LEDs,0.20,4,Visual Indicators,https://www.dualtronica.com/
+5mm LEDs,0.20,10,Visual Indicators,https://www.dualtronica.com/
 Breadboard,5.00,1,Prototype Assembly,https://www.dualtronica.com/
 Dupont Jumper Wires,3.50,1,Electrical Connections,https://www.dualtronica.com/
 Fabric Glove,3.00,1,Wearable Base,https://articulo.mercadolibre.com.co/
