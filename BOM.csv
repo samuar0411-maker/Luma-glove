@@ -1,5 +1,6 @@
 ITEM,PRICE $,QUANTITY,PURPOSE,LINK
 ESP32-C3 Super Mini,8.50,1,Main Microcontroller,https://www.dualtronica.com/
+MPU6050,2.65,2,Motion Tracking (Accelerometer and Gyroscope),https://www.dualtronica.com/
 2.2-inch Flex Sensor,22.50,5,Finger Motion Detection,https://www.amazon.com/s?k=2.2+flex+sensor
 10k Ohm Resistor,0.10,4,Voltage Divider,https://www.dualtronica.com/
 100nF Capacitor,0.20,4,Signal Noise Filtering,https://es.aliexpress.com/wholesale?SearchText=100nF+ceramic+capacitor
