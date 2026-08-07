@@ -82,6 +82,8 @@ The project is still under development, and future versions will include:
 - An improved and more integrated wearable enclosure.
 - Additional applications and games controlled through hand movements.
 
+<img width="1145" height="586" alt="image" src="https://github.com/user-attachments/assets/c559d0d5-193a-4d2b-b77f-9ff6a19cf6f0" />
+
 
 A complete Bill of Materials (BOM) is included in this repository.
 You can find the wiring diagram at "Images".
