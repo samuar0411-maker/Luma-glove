@@ -81,3 +81,7 @@ The project is still under development, and future versions will include:
 - Bluetooth communication.
 - An improved and more integrated wearable enclosure.
 - Additional applications and games controlled through hand movements.
+
+
+A complete Bill of Materials (BOM) is included in this repository.
+You can find the wiring diagram at "Images".
