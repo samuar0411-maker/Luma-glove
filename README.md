@@ -6,10 +6,12 @@ Luma Glove is a wearable smart glove based on the ESP32-C3 microcontroller, flex
 
 Programs used:
 
-- Python: Main programming language.
-- Arduino IDE: Firmware development for the ESP32-C3.
-- Antigravity IDE: HTML, CSS, and JavaScript development.
-- JavaScript: Game logic and Web Serial communication.
+- Detect finger movements using four flex sensors.
+- Process sensor data using the ESP32-C3.
+- Send sensor data from the ESP32 to a browser.
+- Control a browser-based game using hand and finger movements.
+- Communicate with the web application through the Web Serial API.
+- Operate as a functional wearable prototype.
 
 Current Status
 
