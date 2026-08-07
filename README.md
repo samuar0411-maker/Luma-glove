@@ -15,7 +15,7 @@ Programs used:
 - CSS3: User interface styling
 - Web Serial API: Communication between the browser and the ESP32
 
-# Circuit Components and Functions
+Circuit Components and Functions:
 
 | Component | Function |
 |-----------|----------|
@@ -31,7 +31,37 @@ Programs used:
 | Breadboard | Used to prototype and test the electronic circuit without permanently soldering the components. |
 | Dupont Jumper Wires | Connect the sensors, resistors, ESP32-C3, and other components in the prototype circuit. |
 
+Web application:
+<img width="738" height="450" alt="WhatsApp Image 2026-08-04 at 4 49 42 PM" src="https://github.com/user-attachments/assets/6a2bb734-2613-40c8-a0b4-6883c55326ca" />
+
+The web application was developed using HTML5, CSS3, and JavaScript in Antigravity IDE. The application works as the software interface between Luma and the game. It receives the sensor data sent by the ESP32-C3 through the Web Serial API and interprets the values of the flex sensors as finger movements.
+
+The current demonstration is a Pong-style game. Each flex sensor is assigned to a different direction:
+
+Flex Sensor 1 → Up
+Flex Sensor 2 → Down
+Flex Sensor 3 → Left
+Flex Sensor 4 → Right
+
+When a finger bends, the corresponding flex sensor produces a different analog reading. The ESP32-C3 reads these values and sends them to the browser. JavaScript processes the incoming data and translates the detected movements into game controls.
+
+This allows the player to interact with the game using hand and finger movements instead of a traditional keyboard or controller.
+
+The Web Serial API is responsible for establishing communication between the browser and the ESP32-C3, while JavaScript handles the sensor data and game logic.
 Current Status
+
+How it Works:
+
+The system follows this process:
+
+1. The user moves or bends their fingers.
+2. The flex sensors detect the changes in finger position.
+3. The ESP32-C3 reads the analog sensor values.
+4. The firmware processes the sensor readings.
+5. The ESP32-C3 sends the data to the browser through the Web Serial API.
+6. JavaScript interprets the sensor values.
+7. The corresponding movement is applied to the Pong game.
+8. The user controls the game through natural hand and finger movements.
 
 Luma Glove can currently:
 
@@ -41,6 +71,7 @@ Luma Glove can currently:
 - Control a browser-based game using hand and finger movements.
 - Communicate with the web application through the Web Serial API.
 - Operate as a functional wearable prototype.
+<img width="1600" height="1200" alt="WhatsApp Image 2026-08-04 at 6 30 06 PM" src="https://github.com/user-attachments/assets/3ce083f9-059e-4672-8a23-ef8427ba3317" />
 
 The project is still under development, and future versions will include:
 
